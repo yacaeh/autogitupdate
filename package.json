@@ -1,0 +1,11 @@
+{
+  "name": "autogitupdate",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/yacaeh/autogitupdate.git",
+  "author": "yacaeh <yacaeh@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^1.110.0"
+  }
+}
