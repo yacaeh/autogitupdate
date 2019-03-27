@@ -22,7 +22,8 @@ git(NODE_PATH).pull(nodeRemote, 'master', {
         console.log('Success!');
         return "success";
       }
-    })
+    }
+    )})
     .catch((err) => console.error('failed: ', err));      
 
 git(UNITY_PATH).pull(unityRemote, 'master', {
@@ -39,6 +40,6 @@ git(UNITY_PATH).pull(unityRemote, 'master', {
         console.log('Success!');
         return "success";
       }
-    })
-    })
+    }
+    )})
     .catch((err) => console.error('failed: ', err));
